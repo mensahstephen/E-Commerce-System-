@@ -1,0 +1,59 @@
+Lab Scenario: Advanced E-Commerce Platform
+
+You are tasked with designing and implementing an advanced e-commerce platform.
+The platform should have classes for sellers, customers, products, orders, payments,
+discounts, and shipping. You'll need to implement methods for various interactions,
+including product listing, order processing, payment handling, and more.
+
+Lab Exercise:
+
+Implement the following classes based on the provided requirements:
+
+Seller class:
+A Seller has a unique seller ID, a name, a list of products they offer, and a rating based
+on their reviews.Implement methods for adding products, updating product information, managing
+orders, and applying seller-level discounts.
+
+Customer class:
+A Customer has a unique customer ID, a name, a list of past orders, a cart of selected products,
+and a wallet balance.
+Implement methods for adding products to the cart, placing orders, making payments, and applying
+customer-level discounts.
+
+Product class:
+A Product has a unique product ID, a name, a description, a price, a stock count, and the associated
+seller.
+Implement methods to update product details, manage stock, and calculate discounted prices.
+
+Order class:
+An Order represents a customer's purchase, including the products, quantities, and associated seller.
+Implement methods to calculate order totals, manage payment status, and track shipping.
+
+Payment class:
+A Payment represents a transaction for an order, including payment status, payment amount,
+and payment method.
+Implement methods to process payments and update payment status.
+
+Discount class:
+A Discount represents a promotional offer, which could be applied to products or for a specific
+customer.
+Implement methods to apply discounts and calculate discounted prices.
+
+Shipping class:
+A Shipping represents shipping information for an order, including shipping method, address,
+and status.
+
+Implement methods to manage shipping status and tracking.
+
+Create a Demo class with a main method to test your implementation:
+Create sellers, products, customers, and discounts.
+Simulate product listings, cart additions, order placement, payment processing, and shipping.
+Display order information, product details, customer cart, and payment status.
+Requirements:
+
+Utilize appropriate data structures (e.g., lists, maps) to manage information.
+Implement methods for various interactions, such as adding products to the cart, placing orders,
+processing payments, and updating order status.
+Include support for both seller-level and customer-level discounts.
+Handle cases of insufficient stock, order cancellations, and shipping updates.
+Offer a wide range of functionality to simulate a real-world e-commerce platform.
